@@ -2240,6 +2240,11 @@ graphemer@^1.4.0:
   resolved "https://registry.yarnpkg.com/graphemer/-/graphemer-1.4.0.tgz#fb2f1d55e0e3a1849aeffc90c4fa0dd53a0e66c6"
   integrity sha512-EtKwoO6kxCL9WO5xipiHTZlSzBm7WLT627TqC/uVRd0HKmq8NXyebnNYxDoBi7wt8eTWrUrKXCOVaFq9x1kgag==
 
+gsap-trial@^3.12.2:
+  version "3.12.2"
+  resolved "https://registry.yarnpkg.com/gsap-trial/-/gsap-trial-3.12.2.tgz#243477a7a51d1c2a202a656f99f70ddba1b64f62"
+  integrity sha512-6oSqqRZB0jcJmCBmM8I6UECAAacZOn76r5/QOIOD4gewYxoWuecDt0A4oT5zAT1fhq40lWHYAgXfN9Kd8hWQcQ==
+
 gsap@^3.12.2:
   version "3.12.2"
   resolved "https://registry.yarnpkg.com/gsap/-/gsap-3.12.2.tgz#6e88203eed360761cbf2a2cb3a8d702aa87f3f6d"

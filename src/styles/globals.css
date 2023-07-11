@@ -22,7 +22,7 @@ body {
   z-index: 1;
 }
 
-body::before {
+.line_grid::before {
   content: "";
   background-image: url(../static/bg/grid.svg);
   background-size: 100%;
@@ -41,12 +41,13 @@ body::after {
   content: "";
   height: 300%;
   left: -100%;
-  opacity: .12;
+  opacity: .09;
   pointer-events: none;
   position: fixed;
   top: -100%;
   width: 300%;
   will-change: transform;
+  z-index: 3;
 }
 
 a {
@@ -119,6 +120,7 @@ a {
   height: auto;
   border-radius: 25em;
   transform: translate(-50%, -50%);
+  z-index: 9999;
 }
 
 .colorOne {
@@ -196,4 +198,21 @@ a {
   to {
       transform:rotate(360deg) translate(30px) rotate(-360deg) scale(1)
   }
+}
+
+.page-change-cnt {
+  z-index: 999999;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.page-change-col {
+  height: 100vh;
+  width: 100%;
+  top: 0px;
+  position: fixed;
+  transform: translateY(-100%);
+  background-color: black;
 }

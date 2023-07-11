@@ -6,7 +6,7 @@ import Navbar from "./navbar/navbar";
 const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <ScrollProvider>
-      <Box w="100%" h="auto">
+      <Box w="100%" h="auto" className="line_grid">
         <Navbar />
         <Box w="100%">{children}</Box>
       </Box>
